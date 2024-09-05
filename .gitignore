@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# Except these files
+!style.css
+!index.html
+!pricing.html
+!contact.html
+!about.html
+
+# Ignore these directories
+dist/
+!images/
+node_modules/
+
+# Ensure .gitignore is not ignored
+!.gitignore
