@@ -142,3 +142,16 @@ h6 {
     margin-bottom: 0.5rem;
     padding: 1rem 1.5rem;
 }
+
+.table th, .table td {
+    background-color: #faf8f5;
+    border-color: #ddd;
+}
+
+.card-title-fixed {
+    min-height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
