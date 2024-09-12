@@ -12,6 +12,11 @@
 .greyText {
     color: #6c757d;
 }
+
+.lightGrey {
+    background-color: #f8f9fa;
+}
+
 body {
     color: #333;
     font-family: Open Sans, sans-serif;
@@ -143,10 +148,6 @@ h6 {
     padding: 1rem 1.5rem;
 }
 
-.table th, .table td {
-    background-color: #faf8f5;
-    border-color: #ddd;
-}
 
 .card-title-fixed {
     min-height: 4rem;
