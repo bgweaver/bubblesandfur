@@ -1,0 +1,22 @@
+# Ignore these directories
+dist/
+node_modules/
+scss/
+minify.js
+
+# Ignore these specific files if they are not needed
+*.log
+*.tmp
+
+# Ensure the following files are tracked
+!css/
+!js/
+!webfonts/
+!index.html
+!contact.html
+!about.html
+!pay.html
+!images/
+
+# Ensure .gitignore is not ignored
+!.gitignore
