@@ -2,6 +2,8 @@
 
 Welcome to the current version of the **Bubbles & Fur** website! This project represents the modern, optimized version of the site, built with minified assets, a streamlined workflow, and improved performance. The site is fully responsive, with a clean and professional design, and leverages modern web technologies and tools.
 
+You can view it live at: [Bubbles & Fur](https://www.bubblesandfur.com)
+
 **Bubbles & Fur** is a professional cleaning service website serving the greater Indianapolis area. This version of the site has undergone several improvements from the original version, including minified CSS, JavaScript, and HTML files for faster load times and better overall performance. The site is fully responsive and offers key features such as:
 - An interactive service area map
 - Detailed service information
