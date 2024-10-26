@@ -262,17 +262,18 @@
       };
     </script>
     <script>
-      var map = L.map("map").setView([39.7684, -86.1581], 9);
+      var map = L.map("map").setView([39.55, -86.1581], 9);
+
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution:
           '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       }).addTo(map);
 
-      var circle = L.circle([39.7684, -86.1581], {
+      var circle = L.circle([39.55, -86.1581], {
         color: "#c2e0c6",
         fillColor: "#e4f5e8",
         fillOpacity: 0.5,
-        radius: 37000,
+        radius: 53000,
       }).addTo(map);
     </script>
   </body>
