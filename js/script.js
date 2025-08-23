@@ -1,1 +1,1 @@
-function userScroll(){const e=document.querySelector(".navbar");window.addEventListener("scroll",(()=>{window.scrollY>50?e.classList.add("navbar-sticky"):e.classList.remove("navbar-sticky")}))}document.addEventListener("DOMContentLoaded",userScroll);
+function userScroll(){const e=document.querySelector(".navbar");window.addEventListener("scroll",()=>{window.scrollY>50?e.classList.add("navbar-sticky"):e.classList.remove("navbar-sticky")})}document.addEventListener("DOMContentLoaded",userScroll);
