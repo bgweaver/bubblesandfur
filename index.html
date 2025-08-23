@@ -11,7 +11,7 @@
     />
     <meta
       name="keywords"
-      content="cleaning services, deep cleaning, maintenance cleaning, pet care, eco-friendly cleaning, Bubbles & Fur, Nashville IN, Trafalgar, Westfield, Danville, Greenfield, Lizton, Pittsboro, Bloomington, Columbus"
+      content="cleaning services, deep cleaning, maintenance cleaning, pet care, eco-friendly cleaning, Bubbles & Fur, Nashville IN, Trafalgar, Westfield, Danville, Greenfield, Lizton, Pittsboro"
     />
     <meta name="robots" content="index, follow" />
     <meta
@@ -127,7 +127,7 @@
           Welcome to <strong>Bubbles & Fur!</strong> Based in Nashville, IN,
           we are a dedicated, woman-owned business offering thorough
           cleaning services across central Indiana, from Trafalgar to
-          Westfield and Danville to Greenfield, including Lizton, Pittsboro, Bloomington, Columbus,
+          Westfield and Danville to Greenfield, including Lizton, Pittsboro,
           and surrounding areas. Whether you need a deep clean, regular
           maintenance, or specialized pet care, we're here to make your home
           shine. Contact us today for a free walk-through and experience the
@@ -563,22 +563,18 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
     <script>
-      var map = L.map('map').setView([39.55, -86.1581], 9);
-    
+      var map = L.map('map').setView([39.7684, -86.1581], 9);
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
-    
-      var circle = L.circle([39.55, -86.1581], {
-        color: '#c2e0c6',
-        fillColor: '#e4f5e8',
-        fillOpacity: 0.5,
-        radius: 53000
-      }).addTo(map);
-    </script>
-    
-    
-    
+  
+      var circle = L.circle([39.7684, -86.1581], {
+    color: '#c2e0c6',
+    fillColor: '#e4f5e8', 
+    fillOpacity: 0.5,
+    radius: 37000 
+}).addTo(map);
+  </script>
   
   </body>
 </html>
