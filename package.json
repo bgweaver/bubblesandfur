@@ -4,8 +4,8 @@
   "description": "Starter template for Bootstrap websites",
   "main": "index.js",
   "scripts": {
-    "sass:build": "sass --no-source-map scss:css",
-    "sass:watch": "sass --no-source-map --watch scss:css"
+    "sass:watch": "sass --no-source-map --quiet-deps --load-path=node_modules --watch scss:css",
+    "sass:build": "sass --no-source-map --quiet-deps --load-path=node_modules scss:css"
   },
   "author": "Ben Weaver",
   "license": "MIT",
